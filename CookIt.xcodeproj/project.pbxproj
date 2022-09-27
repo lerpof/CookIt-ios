@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7336C96628D355C400455283 /* MainTabViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7336C96328D355C400455283 /* MainTabViewModels.swift */; };
+		7336C96728D355C400455283 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7336C96528D355C400455283 /* MainTabView.swift */; };
+		733961E628D8635F00905AB4 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733961E528D8635F00905AB4 /* ExploreView.swift */; };
+		733961E928D86A3100905AB4 /* CustomTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 733961E828D86A3100905AB4 /* CustomTextField */; };
 		733A5A27289069EC003AE35D /* CookItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A5A26289069EC003AE35D /* CookItApp.swift */; };
 		733A5A29289069EC003AE35D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A5A28289069EC003AE35D /* ContentView.swift */; };
 		733A5A2B289069ED003AE35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733A5A2A289069ED003AE35D /* Assets.xcassets */; };
 		733A5A2E289069ED003AE35D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733A5A2D289069ED003AE35D /* Preview Assets.xcassets */; };
+		733A5A3828906A1C003AE35D /* RecipeTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A5A3728906A1C003AE35D /* RecipeTileView.swift */; };
+		733A5A3B28906A43003AE35D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A5A3A28906A43003AE35D /* HomeView.swift */; };
+		733A5A4A28906B74003AE35D /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A5A4928906B74003AE35D /* ViewExtension.swift */; };
+		73AC06C828E1BB9B001FFF78 /* MainTabAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AC06C728E1BB9B001FFF78 /* MainTabAssets.xcassets */; };
+		73F5A7A928E2FDAA007F2B38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F5A7A828E2FDAA007F2B38 /* Constants.swift */; };
+		73F5A7AB28E3002E007F2B38 /* RecipePreviewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F5A7AA28E3002E007F2B38 /* RecipePreviewsList.swift */; };
+		73F661E728E1E844000BEF8C /* RecipePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F661E628E1E844000BEF8C /* RecipePreview.swift */; };
+		73F661EA28E1F68E000BEF8C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F661E928E1F68E000BEF8C /* APIManager.swift */; };
+		73F661ED28E1F749000BEF8C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 73F661EC28E1F749000BEF8C /* Alamofire */; };
+		73F661EF28E1FE5D000BEF8C /* RecipesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F661EE28E1FE5D000BEF8C /* RecipesService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7336C96328D355C400455283 /* MainTabViewModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewModels.swift; sourceTree = "<group>"; };
+		7336C96528D355C400455283 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		733961E528D8635F00905AB4 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		733A5A23289069EC003AE35D /* CookIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		733A5A26289069EC003AE35D /* CookItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookItApp.swift; sourceTree = "<group>"; };
 		733A5A28289069EC003AE35D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		733A5A2A289069ED003AE35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		733A5A2D289069ED003AE35D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		733A5A3728906A1C003AE35D /* RecipeTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTileView.swift; sourceTree = "<group>"; };
+		733A5A3A28906A43003AE35D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		733A5A4928906B74003AE35D /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		73AC06C728E1BB9B001FFF78 /* MainTabAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MainTabAssets.xcassets; sourceTree = "<group>"; };
+		73F5A7A828E2FDAA007F2B38 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		73F5A7AA28E3002E007F2B38 /* RecipePreviewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePreviewsList.swift; sourceTree = "<group>"; };
+		73F661E628E1E844000BEF8C /* RecipePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePreview.swift; sourceTree = "<group>"; };
+		73F661E928E1F68E000BEF8C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		73F661EE28E1FE5D000BEF8C /* RecipesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +52,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				733961E928D86A3100905AB4 /* CustomTextField in Frameworks */,
+				73F661ED28E1F749000BEF8C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7336C96128D355C400455283 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				7336C96228D355C400455283 /* ViewModels */,
+				7336C96428D355C400455283 /* Views */,
+				73AC06C728E1BB9B001FFF78 /* MainTabAssets.xcassets */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		7336C96228D355C400455283 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7336C96328D355C400455283 /* MainTabViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7336C96428D355C400455283 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7336C96528D355C400455283 /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		733961E228D8631D00905AB4 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				733961E428D8633000905AB4 /* ViewModels */,
+				733961E328D8632800905AB4 /* Views */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		733961E328D8632800905AB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				733961E528D8635F00905AB4 /* ExploreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		733961E428D8633000905AB4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		733A5A1A289069EC003AE35D = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +129,11 @@
 		733A5A25289069EC003AE35D /* CookIt */ = {
 			isa = PBXGroup;
 			children = (
+				73F5A7A728E2FD7A007F2B38 /* Utils */,
+				73F661E828E1F5E3000BEF8C /* Services */,
+				73F661E528E1E773000BEF8C /* Models */,
+				733A5A3E28906B19003AE35D /* Extensions */,
+				733A5A3428906A00003AE35D /* Core */,
 				733A5A26289069EC003AE35D /* CookItApp.swift */,
 				733A5A28289069EC003AE35D /* ContentView.swift */,
 				733A5A2A289069ED003AE35D /* Assets.xcassets */,
@@ -65,6 +148,75 @@
 				733A5A2D289069ED003AE35D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		733A5A3428906A00003AE35D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				733961E228D8631D00905AB4 /* Explore */,
+				7336C96128D355C400455283 /* MainTab */,
+				733A5A3528906A07003AE35D /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		733A5A3528906A07003AE35D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				733A5A3928906A35003AE35D /* ViewModels */,
+				733A5A3628906A0D003AE35D /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		733A5A3628906A0D003AE35D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				733A5A3728906A1C003AE35D /* RecipeTileView.swift */,
+				733A5A3A28906A43003AE35D /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		733A5A3928906A35003AE35D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		733A5A3E28906B19003AE35D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				733A5A4928906B74003AE35D /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73F5A7A728E2FD7A007F2B38 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				73F5A7A828E2FDAA007F2B38 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		73F661E528E1E773000BEF8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73F661E628E1E844000BEF8C /* RecipePreview.swift */,
+				73F5A7AA28E3002E007F2B38 /* RecipePreviewsList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		73F661E828E1F5E3000BEF8C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				73F661E928E1F68E000BEF8C /* APIManager.swift */,
+				73F661EE28E1FE5D000BEF8C /* RecipesService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +235,10 @@
 			dependencies = (
 			);
 			name = CookIt;
+			packageProductDependencies = (
+				733961E828D86A3100905AB4 /* CustomTextField */,
+				73F661EC28E1F749000BEF8C /* Alamofire */,
+			);
 			productName = CookIt;
 			productReference = 733A5A23289069EC003AE35D /* CookIt.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +267,10 @@
 				Base,
 			);
 			mainGroup = 733A5A1A289069EC003AE35D;
+			packageReferences = (
+				733961E728D86A3100905AB4 /* XCRemoteSwiftPackageReference "CustomTextField" */,
+				73F661EB28E1F749000BEF8C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 733A5A24289069EC003AE35D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +287,7 @@
 			files = (
 				733A5A2E289069ED003AE35D /* Preview Assets.xcassets in Resources */,
 				733A5A2B289069ED003AE35D /* Assets.xcassets in Resources */,
+				73AC06C828E1BB9B001FFF78 /* MainTabAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +299,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				733A5A29289069EC003AE35D /* ContentView.swift in Sources */,
+				73F661EF28E1FE5D000BEF8C /* RecipesService.swift in Sources */,
+				733A5A3B28906A43003AE35D /* HomeView.swift in Sources */,
+				73F661EA28E1F68E000BEF8C /* APIManager.swift in Sources */,
 				733A5A27289069EC003AE35D /* CookItApp.swift in Sources */,
+				73F5A7AB28E3002E007F2B38 /* RecipePreviewsList.swift in Sources */,
+				7336C96628D355C400455283 /* MainTabViewModels.swift in Sources */,
+				7336C96728D355C400455283 /* MainTabView.swift in Sources */,
+				733A5A3828906A1C003AE35D /* RecipeTileView.swift in Sources */,
+				733961E628D8635F00905AB4 /* ExploreView.swift in Sources */,
+				73F661E728E1E844000BEF8C /* RecipePreview.swift in Sources */,
+				733A5A4A28906B74003AE35D /* ViewExtension.swift in Sources */,
+				73F5A7A928E2FDAA007F2B38 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +511,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		733961E728D86A3100905AB4 /* XCRemoteSwiftPackageReference "CustomTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lerpof/CustomTextField";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		73F661EB28E1F749000BEF8C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		733961E828D86A3100905AB4 /* CustomTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 733961E728D86A3100905AB4 /* XCRemoteSwiftPackageReference "CustomTextField" */;
+			productName = CustomTextField;
+		};
+		73F661EC28E1F749000BEF8C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73F661EB28E1F749000BEF8C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 733A5A1B289069EC003AE35D /* Project object */;
 }
