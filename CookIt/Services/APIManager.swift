@@ -28,7 +28,6 @@ public class APIManager {
         // Network request
         AF.request(url,
                    method: method,
-                   parameters: parameters,
                    encoding: JSONEncoding.default,
                    headers: headers).response { response in
             switch response.result {

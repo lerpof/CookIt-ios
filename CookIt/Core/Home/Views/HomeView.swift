@@ -9,33 +9,26 @@ import SwiftUI
 
 struct HomeView: View {
     
-    let recipeNames = [["Patatine Fritte", "Pizza"],
-                          ["Pasta", "Mandolino"],
-                          ["Pesce", "Pasta allo scoglio"]]
-    
-    let rs = RecipesService()
+    @StateObject var homeVM = HomeViewModel()
     
     var body: some View {
         ScrollView {
-            VStack {
-                ForEach(recipeNames, id: \.self) { pair in
-                    HStack {
-                        Spacer()
-                        RecipeTileView(withName: pair[0])
-                        Spacer()
-                        RecipeTileView(withName: pair[1])
-                        Spacer()
+            if let recipesList = homeVM.recipesList {
+                VStack {
+                    ForEach(recipesList.recipesPair, id: \.self) { pair in
+                        HStack {
+                            Spacer()
+                            RecipeTileView(withName: pair[0].title!, andImage: pair[0].image!)
+                            Spacer()
+                            RecipeTileView(withName: pair[1].title!, andImage: pair[1].image!)
+                            Spacer()
+                        }
                     }
                 }
             }
         }
         .onAppear {
-            rs.getRandomRecipes { recipesList in
-                print("DEBUG")
-            } failure: { failureMsg in
-                print(failureMsg)
-            }
-
+            homeVM.getRecipes()
         }
     }
 }
